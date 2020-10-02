@@ -528,7 +528,7 @@ Sum = 5050
 
 #include<stdio.h>
 
-void main()
+int main()
 
 {
 
@@ -544,6 +544,7 @@ if(b>a)
 printf("%f is greater\n",b); 
 else 
 printf("both numbers are equal\n"); 
+  return 0;
 
 }
 
